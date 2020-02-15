@@ -1,7 +1,7 @@
-form{
-    margin: 10px;
+.navbar-brand{
+    color: white;
 }
 
-form {
-    margin-bottom: 10px;
+#navlinks{
+    color: white;
 }
