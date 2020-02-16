@@ -1,0 +1,38 @@
+h1{
+    margin: 20px;
+    padding: 10px 10px;
+}
+
+.container-fluid{
+    margin: auto;
+}
+
+/* refered from stackoverflow */
+.jumbotron {
+    background-image: url("https://www.streamlinehealth.net/wp-content/uploads/2019/05/automated_coding_analysis_for_healthcare.jpg");
+    background-size: cover;
+  }
+
+  #jumbopara{
+      color: white;
+      text-align: right;
+      margin-left: 60%;
+  }
+
+  #cards{
+      margin-top: 20px;
+  }
+
+  .card{
+      margin: 10px;
+  }
+
+    /* For Mobile Devices*/
+  @media only screen and (max-width: 993px) {
+    #jumbopara{
+        color: white;
+        text-align: right;
+        margin-left: auto;
+    }
+    }
+  }
