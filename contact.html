@@ -6,7 +6,7 @@
 
   <meta charset="UTF-8">
   <!--Css-->
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
   <title>My Portfolio</title>
@@ -41,32 +41,47 @@
  
 <!--About me-->
 <main>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-4">
-        <div class="page-header">
-          <h1>Contact Form!</h1>
+<div class="page-header">
+  <h1 style="text-align: center;">Let's Get In Touch!</h1>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+      <form>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+          <small id="emailHelp" class="form-text text-muted">I will get back back to you within 24-hrs.</small>
         </div>
-        <div class="row">
-          <div class="col-md-9">
-            <form>
-                <div class="form-group">
-                  <label for="exampleInputEmail1">Email address</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                  <small id="emailHelp" class="form-text text-muted">I will get back back to you within 24-hrs.</small>
-                </div>
-                <div class="form-group">
-                  <label for="exampleInputPassword1">Phone</label>
-                  <input type="password" class="form-control" id="exampleInputPhone" placeholder="Phone#">
-                </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
-              </form>
-          </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Phone</label>
+          <input type="password" class="form-control" id="exampleInputPhone" placeholder="Phone#">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+    
+    <div class="col-sm">
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="https://www.massinfrared.com/data/uploads/contact_me.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Phone</h5>
+          <a href="tel:999-999-999">999-999-9999</a>
         </div>
       </div>
-
-
     </div>
+    <div class="col-sm">
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="https://www.gannett-cdn.com/-mm-/621b37bf60a76adf00ec82d1926457b31d7ab3b6/c=0-30-580-356&r=1280x720/local/-/media/2017/07/09/USATODAY/usatsports/email-inbox_large.jpg?width=660&height=372&fit=crop&format=pjpg&auto=webp" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Email</h5>
+          <a href="mailto:abc@gmail.com">abc@gmail.com</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 </main>
 </body>
